@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": null,
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Templates/"
+            ],
+            "defines": [],
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra"
+            ]
+        }
+    ],
+    "version": 4
+}

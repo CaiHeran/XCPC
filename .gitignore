@@ -1,0 +1,13 @@
+temp/
+tmp/
+tmp.*
+temp.*
+tmp2.*
+*.exe
+a.out
+in.txt
+out.txt
+ans.txt
+
+/papers/
+/solving/

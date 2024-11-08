@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+		"configurations": [
+		{
+			"name": "Launch Only",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+			"cwd": "${fileDirname}",
+			"externalConsole": false,
+		},
+		{
+			"name": "Release",
+			"preLaunchTask": "g++ release",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${fileDirname}",
+		},
+		{
+			"name": "Debug",
+			"preLaunchTask": "g++ debug",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+			"stopAtEntry": false,
+			"cwd": "${fileDirname}",
+			"environment": [],
+		}
+		],
+		"compounds": []
+}
